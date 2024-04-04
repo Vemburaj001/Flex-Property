@@ -1,0 +1,26 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.box{
+    padding: 6px;
+    opacity: 0.5;
+}
+
+.box img{
+    width: 600px;
+    height: 300px;
+}
+
+.box:hover{
+    opacity: 1;
+    transition: 1.0s;
+}
